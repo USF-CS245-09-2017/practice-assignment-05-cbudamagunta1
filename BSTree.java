@@ -127,7 +127,7 @@ public class BSTree {
 	public String toStringInOrder() {
 		
 		String finalString = "";
-		return toStringInOrder(root, finalString);
+		return toStringInOrder(root, finalString).trim();
 		
 	}
 	
@@ -150,7 +150,7 @@ public class BSTree {
 	public String toStringPreOrder() {
 		
 		String finalString = "";
-		return toStringPreOrder(root, finalString);
+		return toStringPreOrder(root, finalString).trim();
 		
 	}
 	
